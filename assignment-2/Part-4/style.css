@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main{
+    height: 24.7rem;
+    width: 28rem;
+    border: 10px solid rgb(1, 61, 85);
+    border-radius: 5px;
+    background-color: wheat;
+}
+
+.header{
+height: 3rem;
+width: 100%;
+border-bottom: 1px solid green;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: brown;
+}
+
+.name-header{
+    color: orange;
+    font-size: 1.3rem;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.tagline-header-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.time-line{
+    color: black;
+    font-size: 1rem;
+    font-family: Arial;
+}
+
+.span{
+    background-color: black;
+    color: white;
+    margin-left: 3px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.ques-main{
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 1rem;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.mcqs-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.mcqs1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+    width: 100%;
+    border: 1px solid rgb(54, 33, 33);
+    border-radius: 10px;
+  
+}
+
+.ques1{
+    margin-left: 10px;
+    font-size: 1.2rem;
+    color: navy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mcqs2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+    width: 100%;
+    border: 1px solid rgb(54, 33, 33);
+    margin-top: 5px;
+    background-color: rgb(148, 233, 233);
+    border-radius: 10px;
+}
+
+.ques2{
+    margin-left: 10px;
+    font-size: 1.2rem;
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.true-false-icon-q2{
+    margin-right: 10px;
+    color: green;
+}
+
+.mcqs3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+    width: 100%;
+    border: 1px solid rgb(54, 33, 33);
+    margin-top: 5px;
+    background-color: rgb(148, 233, 233);
+    border-radius: 10px;
+}
+
+.ques3{
+    margin-left: 10px;
+    font-size: 1.2rem;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.true-false-icon-q3{
+    margin-right: 10px;
+    color: red;
+}
+
+.mcqs4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+    width: 100%;
+    border: 1px solid rgb(54, 33, 33);
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.ques4{
+    margin-left: 10px;
+    font-size: 1.2rem;
+    color: navy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.next-ques-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+    height:3rem;
+    width: auto;
+}
+
+.remind{
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4rem;
+    margin-left: 15px;
+}
+
+.btn-next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 2rem;
+    width: 8rem;
+    color: white;
+    background-color: rgb(70, 70, 245);
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+.btn-next:hover{
+    background-color: rgb(21, 21, 136);
+}

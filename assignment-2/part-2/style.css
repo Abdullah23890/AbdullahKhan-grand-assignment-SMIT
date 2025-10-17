@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:70px 70px 70px 70px 70px 70px  70px 70px;
+    grid-template-areas: 
+    "header header header"
+    "article1 article1 Advertise"
+    "article2 article2 Advertise"
+    "article3 article3 Advertise"
+    "article4 article4 Advertise"
+    "article5 article5 Advertise"
+    "article6 article6 Advertise"
+    "footer footer footer";
+     width: 90%;
+height: 90%;
+    gap: 5px;
+    text-align: center;
+}
+
+.container > div{
+    align-content: center;
+}
+
+.header{
+    grid-area: header;
+    background-color: green;
+     border: 2px solid yellow;
+    border-radius: 20px;
+}
+
+.article1{
+    grid-area: article1;
+    background-color: rgb(168, 24, 24);
+    border: 2px solid gold;
+    border-radius: 20px;
+}
+
+.article2{
+    grid-area: article2;
+    background-color: rgb(168, 24, 24);
+    border: 2px solid gold;
+        border-radius: 20px;
+
+}
+.article3{
+    grid-area: article3;
+    background-color: rgb(168, 24, 24);
+    border: 2px solid gold;
+        border-radius: 20px;
+
+}
+.article4{
+    grid-area: article4;
+    background-color: rgb(168, 24, 24);
+    border: 2px solid gold;
+        border-radius: 20px;
+
+}
+.article5{
+    grid-area: article5;
+    background-color: rgb(168, 24, 24);
+    border: 2px solid gold;
+        border-radius: 20px;
+
+}
+.article6{
+    grid-area: article6;
+    background-color: rgb(168, 24, 24);
+    border: 2px solid gold;
+        border-radius: 20px;
+
+}
+.Advertise{
+    grid-area: Advertise;
+    background-color: lightgreen;
+    border-radius: 20px;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: advertise 2s steps(4) 1s infinite;
+}
+
+.spin{
+    height: 8rem;
+    width: 8rem;
+    border-left: 1rem solid white;
+    border-right: 1rem solid white;
+    border-top: 1rem solid white;
+    border-bottom: 1rem solid rgb(78, 132, 153);
+    border-radius: 50%;
+    animation: advertise-spin linear 1s infinite;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: green;
+    border: 2px solid yellow;
+    border-radius: 20px;
+}
+
+.header:hover{
+    background-color: lawngreen;
+    color: maroon;
+}
+
+.article1:hover{
+animation: article ease-in-out 1s infinite;
+}
+
+.article2:hover{
+animation: article ease-in-out 1s infinite;
+}
+
+.article3:hover{
+animation: article ease-in-out 1s infinite;
+}
+
+.article4:hover{
+animation: article ease-in-out 1s infinite;
+}
+
+.article5:hover{
+animation: article ease-in-out 1s infinite;
+}
+
+.article6:hover{
+animation: article ease-in-out 1s infinite;
+}
+
+.footer:hover{
+    background-color: lawngreen;
+    color: maroon;
+}
+
+@keyframes advertise {
+    0%{
+        background-color: gold;
+    }
+    20%{
+        background-color:navy;
+    }
+    40%{
+        background-color: maroon;
+    }
+    50%{
+        background-color: orangered;
+    }
+    60%{
+        background-color: aqua;
+    }
+    70%{
+        background-color: rebeccapurple;
+    }
+    80%{
+        background-color: darkcyan;
+    }
+    90%{
+        background-color: black;
+    }
+    100%{
+        background-color: yellow;
+    }
+}
+
+@keyframes article {
+    0%{
+        background-color: red;
+        border:2px thick orange;
+    }
+    50%{
+        background-color: navy;
+        border:2px dotted black;
+    }
+    75%{
+        background-color: royalblue;
+        border:2px double palevioletred;
+    }
+    100%{
+        background-color: wheat;
+        border: 2px dashed azure;
+    }
+}
+
+@keyframes advertise-spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} 

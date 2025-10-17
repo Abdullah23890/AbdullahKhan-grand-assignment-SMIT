@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lawngreen;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar{
+    height: 30rem;
+    width: 15rem;
+    background-color: rgb(9, 9, 43);
+    border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+
+.dashboard{
+background-color: wheat;
+height: 30rem;
+width: 50rem;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+
+.nav-link-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navlink1{
+margin-top: 2rem;
+color: orange;
+font-size: 1.3rem;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bolder;
+padding: 3px;
+padding-right: 9px;
+border-right: 7px solid red;
+}
+
+.navlink2{
+    margin-top: 2rem;
+    color: orange;
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    padding: 3px;
+    padding-right: 9px;
+border-right: 7px solid red;
+}
+
+.navlink3{
+    margin-top: 2rem;
+    color: orange;
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    padding: 3px;
+    padding-right: 9px;
+border-right: 7px solid red;
+}
+
+.navlink4{
+    margin-top: 2rem;
+    color: orange;
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    padding: 3px;
+    padding-right: 9px;
+border-right: 7px solid red;
+}
+
+.dashboard-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: orangered;
+    border-top-right-radius: 20px;
+}
+
+.dashboard-name{
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: navy;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+.dashboard-tagline{
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: navy;
+    margin-right: 10px;
+}
+
+.about{
+    color: darkblue;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.about-define{
+    color: brown;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.skill{
+    color: darkblue;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.level-name{
+    color: black;
+    font-family: Arial;
+    font-size: 1.2rem;
+}
+
+.skill-main-part-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px ;
+    margin-top: 10px;
+}
+
+.one-level{
+    height: 1.5rem;
+    width: 17rem;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.inner-one-level{
+    background-color: navy;
+    width: 16rem;
+    height: 1.5rem;
+    border-radius: 10px;
+}
+
+.two-level{
+     height: 1.5rem;
+    width: 17rem;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.inner-two-level{
+    background-color: navy;
+    width: 16.7rem;
+    height: 1.5rem;
+    border-radius: 10px;
+}
+
+.skill-main-part-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px ;
+    margin-top: 10px;
+}
+
+.click-back{
+    color: navy;
+    font-family: cursive;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 4px;
+}
+
+
+
+.credit{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+border-bottom-right-radius: 20px;
+}
+
+.credit-name{
+    color: navy;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+/* Transition And Animation Here */
+
+.navlink1:hover{
+    border-left: 2px dashed red;
+    border-top: 2px dashed red;
+    border-bottom: 2px dashed red;
+}
+
+.navlink2:hover{
+    border-left: 2px dashed red;
+    border-top: 2px dashed red;
+    border-bottom: 2px dashed red;
+}
+
+.navlink3:hover{
+    border-left: 2px dashed red;
+    border-top: 2px dashed red;
+    border-bottom: 2px dashed red;
+}
+
+.navlink4:hover{
+    border-left: 2px dashed red;
+    border-top: 2px dashed red;
+    border-bottom: 2px dashed red;
+}
+
+.about:hover{
+    color: rgb(49, 49, 214);
+    outline-color: black;
+}
+
+.experience:hover{
+    color: rgb(49, 49, 214);
+    outline-color: black;
+}

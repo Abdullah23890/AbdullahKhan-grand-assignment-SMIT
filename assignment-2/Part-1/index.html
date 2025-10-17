@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="main-head">Add Payment Method</p>
+    <form>
+    <div class="form-main">
+        <!-- Portion 1 -->
+        <p class="sub-head-portion">Step 1 : Fill Your Details</p>
+        <div class="form-portion-1">
+            <label for="Name">Name</label> <br>
+            <input type="text" class="input" required> <br> <br>
+            <label for="Email">Email</label> <br>
+            <input type="email" class="input" required> <br> <br>
+            <label for="Phone">Phone</label> <br>
+            <input type="phone" class="input" required> <br> <br>
+        </div> 
+        <!-- Portion 2 -->
+         <p class="sub-head-portion">Step 2 : Deliviery Address</p>
+            <div class="form-portion-2">
+            <label for="text">Address</label> <br>
+            <textarea></textarea> <br> <br>
+            <label for="Number">Postal Code</label> <br>
+            <input type="number" class="input" required> <br> <br>
+            <label for="text">Country</label> <br>
+            <input type="text" class="input" required> <br> <br>
+        </div> 
+        <!-- Portion 3 -->
+         <p class="sub-head-portion">Step 3 : Card Details</p>
+            <div class="form-portion-3">
+                <label for="Radio">Card Type</label> <br> <br>
+                <div class="radio-main">
+        <input type="radio" name="card1"><i class="fa-brands fa-cc-visa"></i> Visa
+        <input type="radio" name="card1" style="margin-left: 2rem;"><i class="fa-brands fa-cc-mastercard"></i> Master Card
+        <input type="radio" name="card1" style="margin-left: 2rem;"><i class="fa-solid fa-credit-card"></i> Debit Card
+                </div> <br>
+            <label for="tel">Card Number</label> <br>
+            <input type="tel" class="input" required> <br> <br>
+            <label for="Number">Security Code</label> <br>
+            <input type="number" class="input" required> <br> <br>
+            <label for="tel">Number of Card</label> <br>
+            <input type="tel" class="input" required> <br> <br>
+        </div> 
+        <div class="btn-main">
+            <a href="#">
+        <button class="btn-buynow">Buy Now</button>
+            </a>
+    </div>
+    </div>
+</form>
+</body>
+</html>

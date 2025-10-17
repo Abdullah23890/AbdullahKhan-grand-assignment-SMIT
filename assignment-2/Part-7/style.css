@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: orange;
+}
+
+table{
+    border: 2px solid navy;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Arial;
+}
+
+th{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+td{
+    padding: 10px;
+    background-color: gray;
+}
+
+tr:hover td{
+    background-color: palevioletred;
+}
