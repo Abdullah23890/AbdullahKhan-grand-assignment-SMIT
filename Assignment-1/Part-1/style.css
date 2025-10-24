@@ -17,6 +17,8 @@ li{
     height: 100%;
     width: auto;
     background-color: wheat;
+     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY7iuYbtM5KI1H9q7lHWscqt0mQL2W5QpaCw&s');
+    background-size:cover;
     padding: 10px;
 }
 
